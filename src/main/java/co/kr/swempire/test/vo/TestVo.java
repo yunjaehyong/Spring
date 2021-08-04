@@ -37,4 +37,12 @@ public class TestVo {
 	public void setBoard_context(String board_context) {
 		this.board_context = board_context;
 	}
+	@Override
+	public String toString() {
+		return "TestVo [board_num=" + board_num + ", id=" + id + ", pw=" + pw + ", title=" + title + ", board_context="
+				+ board_context + "]";
+	}
+	
+	
+	
 }
